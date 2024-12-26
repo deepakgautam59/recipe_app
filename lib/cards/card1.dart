@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:recepie_app/models/explore_recipe.dart';
 
 class Card1 extends StatelessWidget {
-  const Card1({super.key});
+  const Card1({super.key, required ExploreRecipe recipe});
 final String category = 'Editor\'s choice';
 final String title = 'The art of Dough';
 final String description= 'Learn to make Perfect Bread';

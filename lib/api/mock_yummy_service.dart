@@ -1,4 +1,5 @@
 
+
 import '../models/models.dart';
 
 // ExploreData serves as a data container that holds 
@@ -8,9 +9,9 @@ class ExploreData {
   final List<FoodCategory> categories;
   final List<Post> friendPosts;
 
-  ExploreData(this.restaurants, this.categories, this.friendPosts);
 
-  get todayRecipies => null;
+  ExploreData(this.restaurants, this.categories, this.friendPosts);
+  
 }
 
 // Mock Yummy service that grabs sample data to mock up a food app request/response
@@ -47,4 +48,5 @@ class MockYummyService {
     // Return mock restaurants
     return restaurants;
   }
+
 }

@@ -33,7 +33,7 @@ static List<Widget> pages=<Widget>[
         backgroundColor: const Color.fromARGB(255, 255, 65, 7),
         
         foregroundColor: Colors.white,
-        title: Text('ElectroKart',
+        title: Text('Recipe App',
         style: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold
